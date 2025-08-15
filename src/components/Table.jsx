@@ -1,11 +1,10 @@
-// src/components/Table.js
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; //لعمل روابط داخلية بدون إعادة تحميل الصفحة.
 import styled from "styled-components";
 
 const StyledTable = styled.table`
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; //يدمج حدود الخلايا
   background: white;
 
   @media (max-width: 768px) {
